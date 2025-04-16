@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dan Skeen</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    nav {
+      margin: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .profile-img {
+      display: block;
+      margin: 30px auto;
+      width: 200px;
+      height: auto;
+      border-radius: 100px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      background: #0077cc;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Dan Skeen's World</h1>
+    <p>Entrepreneur | Innovator | All-Around Good Dude</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="bio.html">Bio</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <img src="39C3A4A5-0F54-4CED-8974-9BAAFA3C8E92.jpeg" alt="Dan Skeen" class="profile-img"/>
+
+    <section id="about">
+      <h2>About Dan</h2>
+      <p>Dan Skeen is a dynamic entrepreneur known for turning bold ideas into reality. Head over to the <a href="bio.html">Bio</a> page for more about his life, interests, and personal journey.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Skyline Solutions:</strong> A tech startup focused on smart building management.</li>
+        <li><strong>CleanTech Pro:</strong> Innovative cleaning solutions for commercial real estate.</li>
+        <li><strong>SkeenSpeaks:</strong> Dan’s motivational speaking series on leadership and growth.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Want to work with Dan or just say hi? Reach out:</p>
+      <p>Email: <a href="mailto:dan@skeenworld.com">dan@skeenworld.com</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Dan Skeen. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
